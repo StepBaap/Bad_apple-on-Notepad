@@ -31,7 +31,6 @@ def gaytoascii(image,file_stream):
 			if px==(255,255,255):
 				#write '*' onto the output.txt file
 				file_stream.write('*')
-			
 			else:
 				#write '@' onto the output.txt file
 				file_stream.write('@')
